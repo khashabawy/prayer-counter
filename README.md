@@ -1,7 +1,7 @@
 Prayer counter for android
 ==========================================
 
-A simple application to help remember number of prayer prostrations
+A simple application to help muslims remember number of prayer prostrations
 
 تطبيق أندرويد بسيط لتذكير المسلم بعدد الركعات التى إنتهى منها
 

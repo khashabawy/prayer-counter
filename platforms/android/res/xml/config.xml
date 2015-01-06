@@ -1,9 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.khashabawy.prayer.counter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
     <name>PrayerCounter</name>
     <description>
-        A simple application to help aknowledgement of number of prayer prostrations
+        A simple application to help remember number of prayer prostrations
     </description>
     <author email="info@khashabawy.com" href="http://khashabawy.com">
         Khashabawy.com

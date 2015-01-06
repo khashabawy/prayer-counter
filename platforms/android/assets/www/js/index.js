@@ -11,6 +11,10 @@ var app = {
     onDeviceReady: function() {
 
         reset_counter();
+        
+        var h = $( window ).height() - 44;
+        
+        $(".clicking_area").height( h );
 
     },
 
@@ -44,7 +48,7 @@ $("#reset").click(function(){
 });
 
 
-$("#plus_one .btn").click(function(){
+$(".clicking_area").click(function(){
 
         var now = Math.floor(Date.now() / 1000);
 
@@ -65,16 +69,16 @@ function get_name(id){
 
     switch(id) {
         case 1:
-            return "الأولى";
+            return "الأولى<br>[ 1 ] ";
             break;
         case 2:
-            return "الثانية";
+            return "الثانية<br>[ 2 ] ";
             break;
         case 3:
-            return "الثالثة";
+            return "الثالثة<br>[ 3 ] ";
             break;
         case 4:
-            return "الرابعة";
+            return "الرابعة<br>[ 4 ] ";
             break;                                    
         case 0:
             return "لا يوجد سجدات";
@@ -86,7 +90,9 @@ function get_name(id){
 
 
 /// to open all _blank urls in browser
-$("a[target='_blank']").click(function(e){
+$("a[target='_blank'] , .copyrights").click(function(e){
         e.preventDefault();
         window.open($(e.currentTarget).attr('href'), '_system', '');
 });
+
+

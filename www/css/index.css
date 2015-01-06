@@ -25,7 +25,8 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#f1f1f1;
+    background-color:#143250 !important;
+    color:#fff !important;
     background-attachment:fixed;
     font-size:12px;
     height:100%;
@@ -33,102 +34,43 @@ body {
     padding:0px;
     text-transform:uppercase;
     width:100%;    
-    font-family:'Droid Arabic Kufi','Noto Sans' !important;    
 }
 
-
-
-
-@font-face {
-  font-family: 'Noto Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Noto Sans'), local('NotoSans'), url(../assets/fonts/Noto-Sans-400.woff) format('woff');
-}
-@font-face {
-  font-family: 'Noto Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(../assets/fonts/Noto-Sans-700.woff) format('woff');
-}
-
-
-
-/*
- * Droid Arabic Kufi (Arabic) http://www.google.com/fonts/earlyaccess
- */
-@font-face {
-  font-family: 'Droid Arabic Kufi';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../assets/fonts/DroidKufi-Regular.eot);
-  src: url(../assets/fonts/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
-       url(../assets/fonts/DroidKufi-Regular.woff2) format('woff2'),
-       url(../assets/fonts/DroidKufi-Regular.woff) format('woff'),
-       url(../assets/fonts/DroidKufi-Regular.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Droid Arabic Kufi';
-  font-style: normal;
-  font-weight: 700;
-  src: url(../assets/fonts/DroidKufi-Bold.eot);
-  src: url(../assets/fonts/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
-       url(../assets/fonts/DroidKufi-Bold.woff2) format('woff2'),
-       url(../assets/fonts/DroidKufi-Bold.woff) format('woff'),
-       url(../assets/fonts/DroidKufi-Bold.ttf) format('truetype');
-}
      
-
-.container{
+.main_content{
     text-align: center;
-    width:225px;
-    margin:0px auto;
-    padding-top:10px;
 }
 
-.container img.logo{
-    width:100%;
-    height:auto;
-}
-
-/* Portrait layout (default) */
-.app {    
-    text-align:center;
-    margin:0px auto;
+.clicking_area{
+    padding:60px 0px;
 }
 
 h3{
     text-align:center;
-    font-size:14px !important;
+    font-size:20px !important;
     margin-top:20px !important;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 
-.nice-font{
-    font-family:'Droid Arabic Kufi','Noto Sans' !important;    
-}
-
-.copyrights{
-    font-size:12px;
-    margin-top:10px;
-}
 
 #counter{
-    font-size:30px;
-    margin:30px auto;
+    font-size:40px;
+    margin:30px auto; 
+    line-height: 60px; 
+    font-weight: bold;
 }
 
-#plus_one{
-    margin-bottom:20px;
-}
 
-#plus_one .btn{
-    background: #d5cebb;
+.btn-reset{
     padding:10px;
+    display: block;
 }
 
-#plus_one .btn img{
-    height:100px !important;
-    width:166px !important;
+
+
+.copyrights{
+    display: block;    
 }
+
+
