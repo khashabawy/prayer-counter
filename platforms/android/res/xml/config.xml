@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.khashabawy.prayer.counter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <name>PrayerCounter</name>
+    <description>
+        A simple application to help aknowledgement of number of prayer prostrations
+    </description>
+    <author email="info@khashabawy.com" href="http://khashabawy.com">
+        Khashabawy.com
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="www/img/icon.png" />
+    <icon density="ldpi" platform="android" src="www/img/icon.png" />
+    <icon density="mdpi" platform="android" src="www/img/icon.png" />
+    <icon density="hdpi" platform="android" src="www/img/icon.png" />
+    <icon density="xhdpi" platform="android" src="www/img/icon.png" />
+</widget>
